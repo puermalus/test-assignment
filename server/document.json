@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "_id": "6b4f5db2-11f2-485b-afb8-4cb7fb4ee75a",
+        "label": "Client Name",
+        "name": "name",
+        "type": "text",
+        "maxLength": 50
+      },
+      {
+        "_id": "a138ee2f-5b58-49b8-a5b2-00163db278ad",
+        "label": "Client Age",
+        "name": "age",
+        "type": "number"
+      }
+    ]
+  }
+}

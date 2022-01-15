@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+li,
+li:hover,
+li:focus,
+li:active {
+  list-style: none;
+  color: #000;
+}
+
+input,
+input:focus,
+input:active,
+input:hover {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: #ccc;
+}
